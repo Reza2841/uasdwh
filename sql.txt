@@ -1,0 +1,3 @@
+SELECT year(payment_date),sum(amount) FROM fakta
+group by year(payment_date)
+order by year(payment_date);
